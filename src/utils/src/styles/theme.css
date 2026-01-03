@@ -1,0 +1,20 @@
+/* تنسيق تقسيم الشاشة الهندسي */
+.content-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item-card {
+    background: #1a2a3a;
+    padding: 15px;
+    border-right: 5px solid #ff7a00; /* علامة تشييد المميزة */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.item-card.active {
+    background: #ff7a00;
+    color: #0b1d2a;
+}
