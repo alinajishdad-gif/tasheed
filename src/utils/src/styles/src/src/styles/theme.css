@@ -1,0 +1,53 @@
+/* تنسيق الإطار العام للمنصة */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0b1d2a; /* كحلي هندسي */
+  color: white;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background: #122a3d;
+  border-bottom: 2px solid #ff7a00;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff7a00;
+}
+
+.main-nav button {
+  background: transparent;
+  border: 1px solid #ff7a00;
+  color: white;
+  padding: 8px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.main-nav button.active-nav, .main-nav button:hover {
+  background: #ff7a00;
+  color: #0b1d2a;
+}
+
+.view-title {
+  padding: 20px 5%;
+  font-size: 1.2rem;
+  color: #bdc3c7;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 20px;
+  background: #081621;
+  font-size: 0.8rem;
+  margin-top: auto;
+}
