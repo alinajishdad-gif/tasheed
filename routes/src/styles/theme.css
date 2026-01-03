@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background: #0b1d2a;
+  color: white;
+}
+
+nav {
+  padding: 15px;
+  background: #ff7a00;
+  font-weight: bold;
+}
+
+.page {
+  padding: 40px;
+}
